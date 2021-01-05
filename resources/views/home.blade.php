@@ -5,7 +5,7 @@
 @section("content")
     <section id="home">
         <div class="sfondo">
-            <img src="../image/slide_natale2020.webp" alt="">
+            <img src="../image/slide_natale2020.webp" alt="sfondo-home">
         </div>
         <div class="container">
             <div class="testo">

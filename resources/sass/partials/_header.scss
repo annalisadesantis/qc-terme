@@ -1,1 +1,37 @@
+header{
+    font-family: 'Cinzel', serif;
+    background-color: $principal_color;
+    height: 82px;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
 
+
+    .header-box{
+        @include flex-row(space-between, center);
+
+        a{
+            text-decoration: none;
+            color: black;
+        }
+
+        span{
+            margin: 0px 10px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .logo{
+            display: block;
+            background-image: url(../image/logo-qc-terme.png);
+            background-size: 320px 46px;
+            background-position: -160px center;
+            width: 160px;
+            height: 46px;
+            margin: 18px 0;
+        }
+
+    }
+}

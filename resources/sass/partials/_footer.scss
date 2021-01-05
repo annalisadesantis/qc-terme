@@ -1,0 +1,37 @@
+footer{
+    margin-top: 82px;
+    color: $testo_grey;
+
+    .footer-box{
+        @include flex-row(space-between, flex-start);
+        padding: 35px 0px;
+
+        .logo{
+            display: block;
+            background-image: url(../image/logo-qc-terme.png);
+            background-size: 320px 46px;
+            background-position: -160px center;
+            width: 160px;
+            height: 46px;
+            margin-bottom: 28px;
+        }
+
+        .footer-right{
+
+            h2{
+                display: inline-block;
+                cursor: pointer;
+                font-size: 30px;
+                font-weight: normal;
+                margin-right: 50px;
+            }
+
+            i{
+                cursor: pointer;
+                font-size: 30px;
+                font-weight: normal;
+                margin-right: 30px;
+            }
+        }
+    }
+}

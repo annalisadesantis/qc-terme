@@ -47,22 +47,22 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="{{ route('termali') }}">
                             Centri termali e centri benessere
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="{{ route('hotel') }}">
                             wellness hotel
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="{{ route('prodotti') }}">
                             products
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="{{ route('store') }}">
                             stores
                         </a>
                     </li>

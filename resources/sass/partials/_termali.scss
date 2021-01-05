@@ -1,0 +1,65 @@
+#termali{
+    margin-bottom: 150px;
+    margin-top: 82px;
+
+    .testo{
+        padding: 40px 0px;
+
+        h1{
+            color: rgb(51, 62, 71);
+            font-size: 55px;
+            font-weight: 700;
+        }
+
+        p{
+            color: $testo_grey;
+            margin-top: $big_space;
+            font-size: 16px;
+            margin-bottom: 30px;
+        }
+    }
+
+    h2{
+        color: rgb(51, 62, 71);
+        font-size: 45px;
+        font-weight: 700;
+    }
+
+    .contenuto-destinazioni{
+        @include flex-row(space-between, center);
+        flex-wrap: wrap;
+        cursor: pointer;
+        margin-bottom: 100px;
+
+        .card-container{
+            width: 367.359px;
+            height: 489.81px;
+            margin: 90px 0px;
+
+            img{
+                width: 100%;
+                height: 100%;
+            }
+
+            h4{
+                font-size: $fontsize;
+                color: $testo_grey;
+                margin-top: 20px;
+            }
+
+            h2{
+                font-size: 25px;
+                color: rgb(51, 62, 71);
+                margin-top: 20px;
+            }
+
+            h3{
+                font-size: 22px;
+                color: rgb(51, 62, 71);
+                font-weight: normal;
+            }
+
+        }
+    }
+
+}

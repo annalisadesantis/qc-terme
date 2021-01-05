@@ -257,3 +257,223 @@ footer .footer-box .footer-right i {
   color: #333e47;
   font-weight: normal;
 }
+
+#termali {
+  margin-bottom: 150px;
+  margin-top: 82px;
+}
+#termali .testo {
+  padding: 40px 0px;
+}
+#termali .testo h1 {
+  color: #333e47;
+  font-size: 55px;
+  font-weight: 700;
+}
+#termali .testo p {
+  color: #8f9d9d;
+  margin-top: 20px;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+#termali h2 {
+  color: #333e47;
+  font-size: 45px;
+  font-weight: 700;
+}
+#termali .contenuto-destinazioni {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  cursor: pointer;
+  margin-bottom: 100px;
+}
+#termali .contenuto-destinazioni .card-container {
+  width: 367.359px;
+  height: 489.81px;
+  margin: 90px 0px;
+}
+#termali .contenuto-destinazioni .card-container img {
+  width: 100%;
+  height: 100%;
+}
+#termali .contenuto-destinazioni .card-container h4 {
+  font-size: 16px;
+  color: #8f9d9d;
+  margin-top: 20px;
+}
+#termali .contenuto-destinazioni .card-container h2 {
+  font-size: 25px;
+  color: #333e47;
+  margin-top: 20px;
+}
+#termali .contenuto-destinazioni .card-container h3 {
+  font-size: 22px;
+  color: #333e47;
+  font-weight: normal;
+}
+
+#prodotti {
+  margin-bottom: 380px;
+  margin-top: 82px;
+}
+#prodotti .testo {
+  padding: 40px 0px;
+}
+#prodotti .testo h1 {
+  color: #333e47;
+  font-size: 55px;
+  font-weight: 700;
+}
+#prodotti .testo p {
+  color: #8f9d9d;
+  margin: 20px 0px;
+  font-size: 16px;
+}
+#prodotti .contenuto-home {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+}
+#prodotti .contenuto-home .card-container {
+  width: 367.359px;
+  height: 489.81px;
+}
+#prodotti .contenuto-home .card-container img {
+  width: 100%;
+  height: 100%;
+}
+#prodotti .contenuto-home .card-container h4 {
+  font-size: 16px;
+  color: #8f9d9d;
+  margin-top: 40px;
+}
+#prodotti .contenuto-home .card-container h2 {
+  font-size: 25px;
+  color: #333e47;
+  margin-top: 20px;
+}
+#prodotti .contenuto-home .card-container p {
+  font-size: 16px;
+  color: #8f9d9d;
+  margin-top: 20px;
+  line-height: 28px;
+  margin-bottom: 40px;
+}
+#prodotti .contenuto-home .card-container a {
+  text-decoration: none;
+  color: #8f9d9d;
+  font-weight: bold;
+  font-size: 16px;
+}
+#prodotti .contenuto-home .card-container a i {
+  font-size: 12px;
+}
+#prodotti .contenuto-home .card-container a:hover {
+  color: #333e47;
+}
+
+#hotel {
+  margin-bottom: 150px;
+  margin-top: 82px;
+}
+#hotel .testo {
+  padding: 40px 0px;
+}
+#hotel .testo h1 {
+  color: #333e47;
+  font-size: 55px;
+  font-weight: 700;
+}
+#hotel .testo p {
+  color: #8f9d9d;
+  margin-top: 20px;
+  font-size: 16px;
+}
+#hotel .contenuto-destinazioni {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  cursor: pointer;
+}
+#hotel .contenuto-destinazioni .card-container {
+  width: 367.359px;
+  height: 489.81px;
+  margin: 90px 0px;
+}
+#hotel .contenuto-destinazioni .card-container img {
+  width: 100%;
+  height: 100%;
+}
+#hotel .contenuto-destinazioni .card-container h4 {
+  font-size: 16px;
+  color: #8f9d9d;
+  margin-top: 20px;
+}
+#hotel .contenuto-destinazioni .card-container h2 {
+  font-size: 25px;
+  color: #333e47;
+  margin-top: 20px;
+}
+#hotel .contenuto-destinazioni .card-container h3 {
+  font-size: 22px;
+  color: #333e47;
+  font-weight: normal;
+}
+
+#store {
+  margin-bottom: 250px;
+  margin-top: 82px;
+}
+#store .testo {
+  padding: 40px 0px;
+}
+#store .testo h1 {
+  color: #333e47;
+  font-size: 55px;
+  font-weight: 700;
+}
+#store .testo p {
+  color: #8f9d9d;
+  margin-top: 20px;
+  font-size: 16px;
+}
+#store .contenuto-destinazioni {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  cursor: pointer;
+}
+#store .contenuto-destinazioni .card-container {
+  width: 367.359px;
+  height: 489.81px;
+  margin: 140px 0px;
+}
+#store .contenuto-destinazioni .card-container img {
+  width: 100%;
+  height: 100%;
+}
+#store .contenuto-destinazioni .card-container h4 {
+  font-size: 16px;
+  color: #8f9d9d;
+  margin-top: 20px;
+}
+#store .contenuto-destinazioni .card-container h2 {
+  font-size: 25px;
+  color: #333e47;
+  margin-top: 20px;
+}
+#store .contenuto-destinazioni .card-container h3 {
+  font-size: 22px;
+  color: #333e47;
+  font-weight: normal;
+}
+#store .contenuto-destinazioni .card-container p {
+  font-size: 16px;
+  color: #333e47;
+  margin-top: 20px;
+}

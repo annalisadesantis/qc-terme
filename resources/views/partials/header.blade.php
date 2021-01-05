@@ -42,6 +42,11 @@
             <div class="menu-principale">
                 <ul>
                     <li>
+                        <a href="{{ route('home') }}">
+                            Home
+                        </a>
+                    </li>
+                    <li>
                         <a href="{{ route('destinazioni') }}">
                             Destinazioni
                         </a>

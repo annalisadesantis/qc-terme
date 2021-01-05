@@ -34,4 +34,78 @@ header{
         }
 
     }
+
+    .hamburger-menu{
+        height: 100vh;
+        width: 100vw;
+        @include flex-row(space-between, center);
+        font-family: 'Mulish', sans-serif;
+
+        .ita-descrizione{
+            width: 65%;
+            height: 100%;
+            background-color: #eeeeee;
+            padding: 50px;
+
+            .row-chiusura{
+                @include flex-row(space-between, center);
+                height: 100px;
+
+                a{
+                    text-decoration: none;
+                    color: rgb(51, 62, 71);
+                    font-size: 20px;
+                }
+            }
+
+            .testo-italiano{
+                @include flex-row(center, center);
+                height: 300px;
+
+                p{
+                    color: $testo_grey;
+                    font-size: 20px;
+                    line-height: 28px;
+                }
+            }
+        }
+
+        .voci-menu{
+            width: 35%;
+            height: 100%;
+            background-color: #333e47;
+            padding: 50px;
+            font-family: 'Cinzel', serif;
+
+            .logo{
+                display: block;
+                background-image: url(../image/logo-qc-terme.png);
+                background-size: 450px 64px;
+                background-repeat: no-repeat;
+                background-position: 0 top;
+                width: 225px;
+                height: 88px;
+                margin-top: 30px;
+            }
+
+            .menu-principale{
+
+                ul{
+                    list-style-type: none;
+
+                    li{
+                        margin: $small_space;
+
+                        a{
+                            color: $principal_color;
+                            text-decoration: none;
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+        }
+
+
+    }
 }

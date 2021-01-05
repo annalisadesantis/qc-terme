@@ -46,10 +46,75 @@ header .header-box .logo {
   height: 46px;
   margin: 18px 0;
 }
+header .hamburger-menu {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Mulish", sans-serif;
+}
+header .hamburger-menu .ita-descrizione {
+  width: 65%;
+  height: 100%;
+  background-color: #eeeeee;
+  padding: 50px;
+}
+header .hamburger-menu .ita-descrizione .row-chiusura {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+header .hamburger-menu .ita-descrizione .row-chiusura a {
+  text-decoration: none;
+  color: #333e47;
+  font-size: 20px;
+}
+header .hamburger-menu .ita-descrizione .testo-italiano {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+header .hamburger-menu .ita-descrizione .testo-italiano p {
+  color: #8f9d9d;
+  font-size: 20px;
+  line-height: 28px;
+}
+header .hamburger-menu .voci-menu {
+  width: 35%;
+  height: 100%;
+  background-color: #333e47;
+  padding: 50px;
+  font-family: "Cinzel", serif;
+}
+header .hamburger-menu .voci-menu .logo {
+  display: block;
+  background-image: url(../image/logo-qc-terme.png);
+  background-size: 450px 64px;
+  background-repeat: no-repeat;
+  background-position: 0 top;
+  width: 225px;
+  height: 88px;
+  margin-top: 30px;
+}
+header .hamburger-menu .voci-menu .menu-principale ul {
+  list-style-type: none;
+}
+header .hamburger-menu .voci-menu .menu-principale ul li {
+  margin: 10px;
+}
+header .hamburger-menu .voci-menu .menu-principale ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 20px;
+}
 
 footer {
   margin-top: 82px;
   color: #8f9d9d;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 footer .footer-box {
   display: flex;

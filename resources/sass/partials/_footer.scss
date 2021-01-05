@@ -1,6 +1,7 @@
 footer{
     margin-top: 82px;
     color: $testo_grey;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
 
     .footer-box{
         @include flex-row(space-between, flex-start);

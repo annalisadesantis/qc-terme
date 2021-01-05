@@ -22,3 +22,13 @@ Route::get('/', function () {
 
     return view('home', $data);
 })->name("homepage");
+
+Route::get('/destinazioni', function () {
+    $array_destinazioni = config("destinazioni");
+
+    $data = [
+        "destinazioni" => $array_destinazioni,
+    ];
+
+    return view('destinazioni', $data);
+})->name("destinazioni");

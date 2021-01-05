@@ -42,7 +42,7 @@
             <div class="menu-principale">
                 <ul>
                     <li>
-                        <a href="#">
+                        <a href="{{ route('destinazioni') }}">
                             Destinazioni
                         </a>
                     </li>

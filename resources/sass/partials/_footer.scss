@@ -25,6 +25,10 @@ footer{
                 font-size: 30px;
                 font-weight: normal;
                 margin-right: 50px;
+
+                &:hover{
+                    color: rgb(51, 62, 71);
+                }
             }
 
             i{
@@ -32,6 +36,10 @@ footer{
                 font-size: 30px;
                 font-weight: normal;
                 margin-right: 30px;
+
+                &:hover{
+                    color: rgb(51, 62, 71);
+                }
             }
         }
     }

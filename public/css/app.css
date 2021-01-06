@@ -110,6 +110,9 @@ header .hamburger-menu .voci-menu .menu-principale ul li a {
   text-decoration: none;
   font-size: 20px;
 }
+header .hamburger-menu .voci-menu .menu-principale ul li a:hover {
+  color: #8f9d9d;
+}
 
 footer {
   margin-top: 82px;
@@ -138,11 +141,17 @@ footer .footer-box .footer-right h2 {
   font-weight: normal;
   margin-right: 50px;
 }
+footer .footer-box .footer-right h2:hover {
+  color: #333e47;
+}
 footer .footer-box .footer-right i {
   cursor: pointer;
   font-size: 30px;
   font-weight: normal;
   margin-right: 30px;
+}
+footer .footer-box .footer-right i:hover {
+  color: #333e47;
 }
 
 #home {
@@ -178,6 +187,11 @@ footer .footer-box .footer-right i {
 #home .contenuto-home .card-container img {
   width: 100%;
   height: 100%;
+  transition: all 1s;
+}
+#home .contenuto-home .card-container img:hover {
+  border-radius: 20px;
+  transform: scale(0.8);
 }
 #home .contenuto-home .card-container h4 {
   font-size: 16px;
@@ -241,6 +255,11 @@ footer .footer-box .footer-right i {
 #destinazioni .contenuto-destinazioni .card-container img {
   width: 100%;
   height: 100%;
+  transition: all 1s;
+}
+#destinazioni .contenuto-destinazioni .card-container img:hover {
+  border-radius: 20px;
+  transform: scale(0.8);
 }
 #destinazioni .contenuto-destinazioni .card-container h4 {
   font-size: 16px;
@@ -297,6 +316,11 @@ footer .footer-box .footer-right i {
 #termali .contenuto-destinazioni .card-container img {
   width: 100%;
   height: 100%;
+  transition: all 1s;
+}
+#termali .contenuto-destinazioni .card-container img:hover {
+  border-radius: 20px;
+  transform: scale(0.8);
 }
 #termali .contenuto-destinazioni .card-container h4 {
   font-size: 16px;
@@ -344,6 +368,11 @@ footer .footer-box .footer-right i {
 #prodotti .contenuto-home .card-container img {
   width: 100%;
   height: 100%;
+  transition: all 1s;
+}
+#prodotti .contenuto-home .card-container img:hover {
+  border-radius: 20px;
+  transform: scale(0.8);
 }
 #prodotti .contenuto-home .card-container h4 {
   font-size: 16px;
@@ -407,6 +436,11 @@ footer .footer-box .footer-right i {
 #hotel .contenuto-destinazioni .card-container img {
   width: 100%;
   height: 100%;
+  transition: all 1s;
+}
+#hotel .contenuto-destinazioni .card-container img:hover {
+  border-radius: 20px;
+  transform: scale(0.8);
 }
 #hotel .contenuto-destinazioni .card-container h4 {
   font-size: 16px;
@@ -456,6 +490,11 @@ footer .footer-box .footer-right i {
 #store .contenuto-destinazioni .card-container img {
   width: 100%;
   height: 100%;
+  transition: all 1s;
+}
+#store .contenuto-destinazioni .card-container img:hover {
+  border-radius: 20px;
+  transform: scale(0.8);
 }
 #store .contenuto-destinazioni .card-container h4 {
   font-size: 16px;
